@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul {
+	list-style-type: none;
+}
+li {
+
+width: 150px;
+background-color: black;	
+}
+
+a:link {
+	dislay: block;	
+	padding: 14px 16px;
+	text-decoration: none;
+	color: red;
+	line-height: 3em;
+	
+}
+
+a:visited {
+	color: white;
+	
+}
+
+a:hover {
+	background-color: blue;
+}
+
+a:active {
+	color: green;
+}
+	
+td {
+	padding: 20px;
+	background-color: blue;
+	
+}
