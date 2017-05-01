@@ -1,6 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*Heading Styles Begin*/
+
+h2 {
+	font-weight: 200;
+}
+
+/*Heading Styles End*/
+
+/*Link Styles Begin*/
 
 ul {
 	list-style-type: none;
@@ -36,18 +45,30 @@ a:active {
 	color: green;
 }
 
+/*Link Styles End*/
+
+/*Table Styles Begin*/
+
 table {
 	border-collapse: collapse;
 }
 
 th {
 	text-align: left;
-	padding: 5px 10px;	
+	padding: 5px 10px;
+	border-left: 2px solid #D8CBB2;
+	border-bottom: 2px solid #D8CBB2;
+}
+
+tr {
+	vertical-align: bottom;
 }
 
 td {
 	padding: 5px 20px;
 	border-left: 2px solid #D8CBB2;
+	border-bottom: 2px solid #D8CBB2;
+	border-right: 2px solid #D8CBB2;
 }
 
 span {
@@ -58,3 +79,14 @@ span {
 tr:nth-child(2n) {
 	background-color: #EDE4D6;
 }
+
+th:nth-child(6n+0) {
+	border-left: 2px solid #D8CBB2;
+	border-bottom: 2px solid #D8CBB2;
+}
+
+.images {
+	border-left: 0px solid #D8CBB2;
+}
+
+/*Table Styles End*/
