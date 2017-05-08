@@ -94,18 +94,16 @@ form {
 	text-align: center;
 	width: 500px;
 	padding: 5px 0px;
-	
 }
 	
 fieldset {
 	margin: 0px auto;
 	padding: 10px 0px;
-	
+	background-color: #EDE4D6;	
 }
 
 .contact {
 	margin: 10px auto;
-	
 }
 
 .mailing {

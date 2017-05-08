@@ -58,13 +58,25 @@
     <label> Zip:
     <input type="text" name="zip"></label></p>
 </fieldset>
+<fieldset class="color options">
+	<legend>Survey</legend>
+	<label>New Colors: <select name="new colors">
+    <option value="red">Red</option>
+    <option value="purple">Purple</option>
+    <option value="orange">Orange</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+    </select></label>
+    <p><label>Other Colors:
+    <input type="text" name="other colors"></label></p>
+</fieldset>
 <fieldset class="payment">
  	<legend>Payment</legend>
     <label> Name:
     <input type="text" name="card name"></label>
     <label> Card Number:
     <input type="text" name="card number"></label>
-    <p><label>Expiration date: <select name="expiration month"></label>
+    <p><label>Expiration date: <select name="expiration month">
     <option value="June">January</option>
     <option value="February">February</option>
     <option value="March">March</option>
@@ -77,8 +89,8 @@
     <option value="October">October</option>
     <option value="November">November</option>
     <option value="December">December</option>
-    </select>
-    <select name="expiration year"></label>
+    </select></label>
+    <select name="expiration year">
     <option value="June">2016</option>
     <option value="February">2017</option>
     <option value="March">2018</option>
@@ -94,14 +106,17 @@
     <option value="December">2028</option>
     <option value="December">2029</option>
     <option value="December">2030</option>
-    </select>
+    </select></p>
     <p><label> Security Code:
     <input type="text" name="security"></label></p>
+    <img src="images/mastercard1979.png" alt="mastercard logo" height="30px">
+    <img src="images/american_express.png" alt="american express logo" height="30px">
+    <img src="images/visa.png" alt="visa logo" height="30px">
 </fieldset>
 <input type="submit" value="Submit"/>
 </form>
 
-</form>
+
 
 </body>
 </html>
